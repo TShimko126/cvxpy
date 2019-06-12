@@ -36,7 +36,7 @@ class GUROBI(QpSolver):
                   8: s.SOLVER_ERROR,
                   # TODO could be anything.
                   # means time expired.
-                  9: s.SOLVER_ERROR,
+                  9: s.OPTIMAL_INACCURATE,
                   10: s.SOLVER_ERROR,
                   11: s.SOLVER_ERROR,
                   12: s.SOLVER_ERROR,
